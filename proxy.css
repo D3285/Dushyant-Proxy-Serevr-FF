@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:#111827;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),
+    url("https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200");
+    background-size:cover;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+a{
+    padding:12px 30px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#38bdf8;
+    color:white;
+    font-size:16px;
+}
+
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:60px 20px;
+}
+
+.stat-box{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    width:200px;
+    text-align:center;
+}
+
+.features{
+    padding:70px 10%;
+}
+
+.features h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+}
+
+.plans{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.pricing{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.price-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    width:280px;
+}
+
+.premium{
+    border:2px solid #38bdf8;
+}
+
+.testimonial{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.review{
+    background:#1e293b;
+    padding:25px;
+    margin:20px auto;
+    max-width:600px;
+    border-radius:15px;
+}
+
+.contact{
+    padding:80px 10%;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.contact input,
+.contact textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#111827;
+}
